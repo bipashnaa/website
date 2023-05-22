@@ -1,0 +1,76 @@
+th {
+  width:100px;
+  height: auto;
+    color: black
+  }
+  .blog{
+  margin-left: 200px;
+  color:black;
+  }
+  .para{
+  color: black;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 20px;
+  }
+  .footer1{
+  padding: auto;
+  }
+  
+  .container {
+  width:60%;
+  background-color:white;
+  text-align:center;
+  margin:auto;
+  padding:10px;
+  }
+  .slider-container{
+  width:40%;
+  background-color:white;
+  margin:auto;
+  padding:10px;
+  text-align:center;
+  }
+  .bgcolour {
+  background-color:white;
+  }
+  
+  .current {
+  background-color:#33FFBA;
+  height:50px;
+  }
+  .menu {
+  
+  height:50px;
+  }
+  
+  .text2 {
+  font-family:Comic Sans MS;
+  color:black;
+  }
+  
+  .footer1{
+  position: static;
+    left: 0;
+    font-size: 15px;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    background-color: #393534;
+    color: white;
+    text-align: center;
+  }
+  
+  nav a:hover{
+  background-color:white;
+  color: orange;
+  transition:1s;
+  }
+  .text {
+  font-family: cursive;
+  color: white;
+  }
+  .tab{
+  background-color: white;
+  }
+  

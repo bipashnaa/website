@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact-us</title>
+<meta name="description" content="Contact-us" />
+<meta name="keywords" content="HTML,CSS,JS" />
+<meta name="author" content="B" />
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+background-color: white;
+}
+.text {
+font-family:Helvetica;
+color:#ff3300;
+}
+.slider {
+width:300px;
+height:300px;
+margin:auto;
+}
+.container {
+width:60%;
+background-color:white;
+text-align:center;
+margin:auto;
+padding:10px;
+}
+a{
+text-decoration: none;
+}
+h1 {
+border-bottom: 2px solid black;
+padding-bottom: 5px;
+}
+</style>
+<script src="js.js"></script>
+</head>
+<body>
+<nav>
+<a href="index.html"><img src="BRR1.png" width="16%" height="54"></a>
+<table style="width:80%;margin:auto;">
+<tr>
+<th class="menu">
+<a href="index.html">HOME</a>
+</th>
+<th class="menu">
+<a href="Products.html">PRODUCTS</a>
+</th>
+<th class="menu">
+<a href="Blog.html">BLOG</a>
+</th>
+<th class="menu">
+<a href="Reference.html">REFERENCE</a>
+</th>
+<th class="current">
+<a href="#">CONTACT-US</a>
+</th>
+</tr>
+</table>
+</nav>
+<table border="4" width=100%>
+</table>
+<header>
+<h1 id="username" style="font-family:Courier New;color:black;text-align:center;">Phone no: 9812345678         Tel no: 015123456</h1>
+<h2 style="color:black; text-align: center;"> Follow us on <br>
+<a href="https://www.facebook.com" target="_blank">
+<img src="fb.png" width="3%">
+</a>
+<a href="https://www.instagram.com" target="_blank">
+<img src="insta.png" width="3%">
+</a>
+</h2>
+
+<p class="text2" id="demo" style="text-align:center;"></p>
+</header>
+<div class="container">
+<p class="text2">Feedback Form</p>
+<form name="messageForm" onsubmit="validateForm()">
+<p>First name: <input type="text" name="firstname"></p>
+<p>Last name: <input type="text" name="lastname"></p>
+<p>Email: <input type="text" name="email"></p>
+<p>Satisfied with our service? <input type="radio" name="gender" value="male" checked> Yes <input type="radio" name="gender" value="female"> No </p>
+<p>Message: <br><textarea name="message" rows="10" cols="30" placeholder="Enter Message"></textarea></p>
+<p><input type="submit" value="Send"></p>
+</form>
+</div>
+<script>
+function display_date() {
+document.getElementById('demo').innerHTML = Date();
+setTimeout(display_date,1000);
+}
+display_date();
+</script>
+
+
+</div>
+</body>
+</html>
